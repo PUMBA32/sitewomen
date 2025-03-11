@@ -9,6 +9,3 @@ def index(request: HttpRequest) -> HttpResponse:
 def categories(request: HttpRequest) -> HttpResponse:
     return HttpResponse("Страница с категориями.")
 
-
-def about(request: HttpRequest) -> HttpResponse:
-    return HttpResponse("Страница про нас.")
